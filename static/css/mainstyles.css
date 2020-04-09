@@ -1,0 +1,75 @@
+img,
+button {
+    padding: 3px;
+    /* Padding across all images as required by the task*/
+}
+
+table,
+img {
+    /*border around all images and tables as required by task */
+    border-style: solid;
+    border-width: 0.15px;
+    border-color: #e9ecef;
+}
+
+img:hover {
+    transform: scale(1.05);
+    /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.nostock {
+    /* This filter is applied to the items that are out of stock*/
+    filter: blur(1px);
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.container {
+    margin-top: 20px;
+    margin-left: auto;
+    /*This centres all the content*/
+    margin-right: auto;
+    /*This centres all the content*/
+}
+
+.row,
+footer {
+    border-radius: 5px;
+    /*Change all row borders to have rounded corners*/
+}
+
+.card-text {
+    font-style: normal;
+    /* This is the third font style I have applied, apart from bold and italic*/
+}
+
+thead {
+    background-color: #007bff;
+    color: #ffffff;
+    /*Font colouring as required by task*/
+}
+
+table {
+    table-layout: fixed;
+    /* Using 'Fixed" layout users will see the top of the table while the browser loads and renders rest of the table. This gives the impression that the page loads a lot quicker!*/
+}
+
+#advert1,
+#advert2 {
+    float: left;
+}
+
+h5 {
+    color: #3f3d56;
+    /*Font colouring as required by task*/
+}
+
+em {
+    color: #654347;
+    /*Font colouring as required by task*/
+}
+
+b {
+    color: #2f2e41;
+    /*Font colouring as required by task*/
+}
